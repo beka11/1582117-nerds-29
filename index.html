@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru"></html>
   <head>
     <meta charset="utf-8">
     <title>Nerds</title>
   </head>
   <body>
+    <body class="page-body"></body>
+
   	<header>
-  	    <a>
+          <a class="main-header-logo"></a>
               <img src="http://tiange.ru/nerds/img/nerds-logo.png" alt="Nerds" width="159.87px" height="65.02px">
-           <nav>
-           <ul>
+              <nav class="main-navigation">
+
+           <ul class="site-navigation">
         <li> <a href="blank.html">Студия</a></li>
         <li> <a href="blank.html">Клиенты</a></li>
         <li> <a href="catalog.html">Магазины</a></li>
         <li> <a href="blank.html">Контакты</a></li>
        
       </ul>
-      <a href="blank.html">Корзина</a>
+      <a href="blank.html"class="trashbox" href="blank.html">Корзина</a>
      </nav>
     <section>
+      <main class="main">
+
       <b>Преимущества</b>
       <div>
       <b class="slide__title">Долгo, дорого,<br>скрупулезно</b>
@@ -43,12 +48,15 @@
               <a  href="#">Узнать Больше</a>
 						</p></div>>
 
-
+           
     </section>
  
-
+    
      </main>
      <section>
+      <div class="container">
+        <div class="main__list">
+          <div class="main__item">
       <h2>Разделы</h2>
        <ul>
          <li>
@@ -56,43 +64,43 @@
            <b>Веб-сайты</b>
              <p>Мир никогда не будет прежним после того как увидит наш сайт!</p>
              
-             <a  href="#">Заказать</a>
+             <a href="#" class="button  button__order--red">Заказать</a>
 
              </li>
              <li>
               <img src="https://lonixoon.github.io/nerds/img/application-index.jpg" alt="Nerds" width="300" height="146">
                <b>Приложения</b>
                <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-               <a  href="#">Заказать</a>
+               <a href="#" class="button button__order--green">Заказать</a>
              </li>
              <li>
               <img src="https://lonixoon.github.io/nerds/img/presentation-index.jpg" alt="Nerds" width="300" height="146">
               <b>Презентации</b>
               <p>Вы даже не представляете, насколько вы изумительны!</p>
-              <a  href="#">Заказать</a>
+              <a href="#" class="button  button__order--yellow">Заказать</a>
              </li>
             </section>
             <article>
               <h2>Описание<h2>
               <div>
-                <h2>Мы – маленькая, но гордая 
-                  дизайн-студия из Краснодара.</h2>
-                  <p >
-                    Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
-                  </p>
+                <div class="main__text">
+                <h2 class="main__text-title">Мы – маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                  <p class="main__text-slogan" >Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
                   <span class="about-us__list-title">Выполняем заказы на разработку:</span>
-                  <ul>
+                    <ul class="main__text-list">
                     <li>Веб-сайты любой сложности</li>
                     <li>Мобильные приложения для IOS и Android</li>
                     <li>Слайдшоу и видео для корпоративных презентаций</li>
                   </ul>
               </div>
+              <div class="main__statistics">
+                <div class="main__logo">
               <img src="http://tiange.ru/nerds/img/nerds-illustration.jpg" alt="Nerds" width=360 height="208">
              
               <p> С 2004 года мы любим точность во всем</p>
                         <p>Как мы работаем:</p>
 					<ul><li>
-            <span>146%
+            <span class="main__title">146%
             <p>Уровень самоотдачи</p>
                 100%
             <p>Соблюдение сроков</p>
@@ -119,20 +127,21 @@
 						<img src="https://lonixoon.github.io/nerds/img/barbershop-borodinski.png" alt="Borodinski">
 					</a></li></ul>				
 				</div>
-					<footer>
+					<footer class="footer">
             <section><h2>Map<h2></section>
             <div>
-              <h2> NЁRDS DESIGN STUDIO</h2>
-              <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-              <a> href="tel: тел. +7 (812) 275-75-75"</a>
+              <h2 class="address__title"> NЁRDS DESIGN STUDIO</h2>
+              <p class="address__text">91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+              <a class="address__phone"> href="tel: тел. +7 (812) 275-75-75"</a>
               <a>Напишите нам</a>
             </div>
-            <a href="#" >Вконтакте</a>
-            <a href="#" >Фейсбук</a>
-            <a href="#" >Инстаграмм</a>
+            <a href="#" class="fotter_item vk" >Вконтакте</a>
+            <a href="#" class="footer_item fb" >Фейсбук</a>
+            <a href="#" class="fotter_item ig" >Инстаграмм</a>
             <div>
-              <p>Давайте дружить, это выгодно!</p>
-              <p>Скидка 10% для друзей из социальных сетей.</p>
+              <p class="footer text">
+              <p class="footer text slogan">Давайте дружить, это выгодно!</p>
+              <p class="footer text offer">Скидка 10% для друзей из социальных сетей.</p>
             </div>
 
 
