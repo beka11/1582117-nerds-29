@@ -2,61 +2,37 @@
 
 :root {
     --basic-black: #000000;
-    --basic-grey:  #EEEEEE;;
+    --basic-extra-dark: #242424;
+    --basic-dark: #aba9a7;
     --basic-neutral: #e5e5e5;
     --basic-extra-light: #f8f5f2;
-    --basic-white:#888888;
+    --basic-white: #ffffff;
   
-   /* nerds-index-slide1 1 */
-
-
-
+    --special: #EEEEEE ;
   }
   
   /* Global */
   
   body {
-    min-width: 760px;
-    margin: 0;
-    padding: 0;
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
-    color: var(--basic-white);
-    text-transform: uppercase;
-    background-color: var(--basic-white);
-    background: url(nerds-index-slide1.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-  }
-  a {
-    text-decoration: none;
-  }
   
-  img {
-    max-width: 100%;
-    height: auto;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    color: var(--basic-white);
+    background-color: var(--basic-white);
   }
   
   /* Main navigation */
   
-  .main-navigation {
-    font-size: 16px;
-    line-height: 20px;
+  .main-navigation { 
     color: var(--basic-white);
     background-color: transparent;
   }
   
   .main-navigation-wrapper {
-    background-color: var(--basic-black);
+    background-color: var(--basic-dark);
   }
-  
-  .site-navigation {
-    list-style: none;
-  }
+
   .site-navigation-current a:not([href]) {
-    background-color: var(--basic-black);
+    background-color: var(--basic-dark);
   }
   
   /* User navigation */
@@ -67,10 +43,111 @@
     color: var(--basic-white);
   }
   
-  .site-navigation a:hover,
-  .site-navigation a:focus,
-  .user-navigation a:hover,
   .user-navigation a:focus {
-    background-color: var(--basic-extra-dark);
+    background-color: var(--basic-dark);
   }
+  
+  
+  /* Features */
+  
+ 
+  /* Index columns */
+  
+  .index-columns {
+    color: var(--basic-white);
+    background-color: var(--basic-extra-light);
+  }
+  
+  /* Gallery */
+  
+  .gallery-content {
+    background-color: var(--basic-dark);
+    border: 7px solid var(--basic-white);
+  }
+  
+  /* Button */
+  
+  .button {
+    color: var(--basic-white);
+    background-color: var(--basic-dark);
+  }
+  
+ 
+  .button:active {
+    background-color: var(--special);
+  }
+  
+  .button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-white);
+  }
+  
+  /* Contacts */
+  
+  .contacts-phone {
+    color: inherit;
+  }
+  
+  /* Appointment */
+  
+  .appointment-item input {
+    background-color: transparent;
+    border: 2px solid var(--basic-white);
+  }
+  
+  .appointment-item input:focus {
+    border-color: var(--special);
+  }
+  
+  /* Main footer */
+  
+  .main-footer {
+    color: var(--basic-white);
+    background-color: var(--basic-dark);
+  }
+  
+  .footer-contacts a {
+    color: var(--basic-white);
+    text-decoration: underline;
+  }
+  
+  /* Social button */
+  
+  .social-button {
+    color: inherit;
+  }
+  
+  .social-button:focus {
+    background-color: var(--basic-white);
+  }
+  
+  .footer-copyright .button:focus {
+    color: var(--basic-dark);
+    background-color: var(--basic-white);
+  }
+  
+  /* Modal */
+  
+  .modal {
+    color: var(--basic-dark);
+    background-color: var(--basic-extra-light);
+  }
+  
+  /* Login form */
+  .login-form input[type="password"] {
+    font: inherit;
+    color: var(--basic-dark);
+    text-transform: uppercase;
+    background-color: var(--basic-extra-light);
+    border: 2px solid var(--basic-black);
+  }
+  
+  /* Restore */
+  
+  .restore {
+    color: var(--basic-black);
+    text-decoration: underline;
+  }
+
   
