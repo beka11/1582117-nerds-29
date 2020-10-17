@@ -1,0 +1,76 @@
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-grey:  #EEEEEE;;
+    --basic-neutral: #e5e5e5;
+    --basic-extra-light: #f8f5f2;
+    --basic-white:#888888;
+  
+   /* nerds-index-slide1 1 */
+
+
+
+  }
+  
+  /* Global */
+  
+  body {
+    min-width: 760px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background: url(nerds-index-slide1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Main navigation */
+  
+  .main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--basic-white);
+    background-color: transparent;
+  }
+  
+  .main-navigation-wrapper {
+    background-color: var(--basic-black);
+  }
+  
+  .site-navigation {
+    list-style: none;
+  }
+  .site-navigation-current a:not([href]) {
+    background-color: var(--basic-black);
+  }
+  
+  /* User navigation */
+  
+  
+  .site-navigation a,
+  .user-navigation a {
+    color: var(--basic-white);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus,
+  .user-navigation a:hover,
+  .user-navigation a:focus {
+    background-color: var(--basic-extra-dark);
+  }
+  
